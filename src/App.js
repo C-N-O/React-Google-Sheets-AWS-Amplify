@@ -37,7 +37,7 @@ export default class App extends Component {
     const { name, age, salary, hobby } = this.state;
     return (
       <Container fluid className='container'>
-        <Header as='h2'>React Google Sheets!</Header>
+        <Header as='h2'>React + Google Sheet + AWS Amplify</Header>
         <Form className='form' onSubmit={this.submitHandler}>
           <Form.Field>
             <label>Name</label>
